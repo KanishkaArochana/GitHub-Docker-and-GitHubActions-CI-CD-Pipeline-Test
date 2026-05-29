@@ -1,9 +1,6 @@
-var express = require("express");
-var app = express();
+var app = require("./app");
 
-//listen to port 3000 by default
+// Listen to port 3000
 app.listen(process.env.PORT || 3000, function () {
   console.log("App listening on port 3000!");
 });
-
-module.exports = app;
