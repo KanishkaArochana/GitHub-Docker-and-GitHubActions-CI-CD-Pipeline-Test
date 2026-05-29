@@ -1,8 +1,33 @@
+
+# Node modules
 node_modules/
+nodeApp/node_modules
 npm-debug.log
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment files
 .env
 .env.*
+
+# OS files
 .DS_Store
-coverage/
-dist/
+Thumbs.db
+
+# VS Code settings
 .vscode/
+
+# Coverage reports
+coverage/
+
+# Build folders
+dist/
+build/
+
+# Package lock (optional)
+# package-lock.json
+nodeApp/package-lock.json
+Package lock
