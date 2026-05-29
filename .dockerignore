@@ -1,0 +1,36 @@
+# Recommended .dockerignore for Node.js projects
+
+package-lock.json
+nodeApp/package-lock.json
+
+.DS_Store
+coverage
+dist
+
+# Node modules
+node_modules
+nodeApp/node_modules
+npm-debug.log
+
+# Git files
+.git
+.github
+
+# Environment files
+.env
+.env.*
+
+
+# Documentation
+README.md
+documentation.txt
+
+# VS Code
+.vscode
+
+# Tests (optional)
+test
+
+# Docker files
+Dockerfile
+.dockerignore
